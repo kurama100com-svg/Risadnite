@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Guia Surreal Fortnite</title>
+
+<style>
+:root{
+  --cyan: #00e5ff;
+  --pink: #ff2ecc;
+  --bg-overlay: rgba(6,6,6,0.82);
+  --card-bg: rgba(12,12,12,0.88);
+  --muted: #dfe9f0cc;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url("https://files.tecnoblog.net/wp-content/uploads/2019/08/fortnite-save-the-world.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: var(--bg-overlay);
+  z-index: -1;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 28px;
+  font-size: 2.1rem;
+  font-weight: 800;
+}
+
+/* LOGO */
+.logo-site {
+  position: fixed;
+  top: 14px;
+  left: 14px;
+  z-index: 60;
+}
+
+.logo-site img {
+  width: 72px;
+  border-radius: 8px;
+  transition: .2s;
+}
+
+.logo-site img:hover {
+  transform: scale(1.05);
+}
+
+/* CONTAINER */
+.container {
+  max-width: 920px;
+  margin: 84px auto 28px;
+  padding: 18px;
+}
+
+/* CARD NORMAL */
+.card {
+  background: var(--card-bg);
+  padding: 22px;
+  border-radius: 12px;
+  margin-bottom: 26px;
+
+  border: 2px solid rgba(255,255,255,0.08);
+
+  box-shadow: 0 6px 22px rgba(0,0,0,0.6);
+  transition: 0.3s;
+}
+
+/* CARD HOVER NEON */
+.card:hover {
+  transform: translateY(-6px);
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(90deg,var(--pink),var(--cyan)) 1;
+
+  box-shadow:
+    0 0 12px var(--pink),
+    0 0 20px var(--cyan);
+
+  animation: glowCard 1.5s infinite alternate;
+}
+
+@keyframes glowCard {
+  from { box-shadow: 0 0 10px var(--pink); }
+  to { box-shadow: 0 0 22px var(--cyan); }
+}
+
+.card h2 {
+  margin-bottom: 12px;
+}
+
+.card p {
+  margin-top: 10px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.card ul {
+  margin-top: 12px;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.card img {
+  width: 70%;
+  max-width: 520px;
+  display: block;
+  margin: 18px auto;
+  border-radius: 10px;
+  border: 2px solid rgba(255,255,255,0.05);
+  transition: .2s;
+}
+
+.card img:hover {
+  transform: translateY(-4px);
+}
+
+footer {
+  text-align: center;
+  padding: 14px;
+  margin-top: 22px;
+}
+</style>
+</head>
+
+<body>
+
+<header>Guia Surreal – Fortnite</header>
+
+<!-- LOGO -->
+<div class="logo-site">
+<img src="Risadnite JPG.png" alt="Logo Risadnite">
+</div>
+
+<div class="container">
+
+<div class="card">
+<h2>O que é “Surreal” no Fortnite?</h2>
+
+<img src="https://news.exitlag.com/wp-content/uploads/2025/12/fortnite-rank-unreal-1024x576.webp">
+
+<p>“Surreal” é o nível mais alto do sistema competitivo do Fortnite e representa o topo absoluto entre os jogadores ranqueados.</p>
+
+<p>Esse nível exige domínio técnico, estratégia avançada, excelente tomada de decisão e consistência ao longo das partidas.</p>
+
+</div>
+
+<div class="card">
+<h2>Dicas Poderosas pra Subir de Rank</h2>
+
+<img src="https://assets.gamearena.gg/wp-content/uploads/2024/12/21152437/Ranques-Ballistic-1024x329.png">
+
+<ul>
+<li>Priorize sobrevivência nas fases iniciais.</li>
+<li>Desenvolva posicionamento estratégico.</li>
+<li>Evite batalhas com pouco recurso.</li>
+<li>Use mobilidade para rotações seguras.</li>
+<li>Mantenha comunicação eficiente em equipe.</li>
+<li>Gerencie materiais e munição com inteligência.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Melhores Lugares para Cair</h2>
+
+<img src="https://preview.redd.it/official-fortnite-og-mini-map-via-v0-u5g2sh1hp54e1.jpeg?auto=webp&s=9c60a1079502675ea42fc9ae910ca8c00a164287">
+
+<ul>
+<li>Prefira locais afastados da rota do ônibus.</li>
+<li>Priorize POIs com grande quantidade de loot.</li>
+<li>Escolha regiões com mobilidade.</li>
+<li>Observe a movimentação dos adversários.</li>
+<li>Busque terrenos elevados.</li>
+<li>Pouse próximo às bordas da zona segura.</li>
+<li>Evite áreas centrais no começo.</li>
+<li>Planeje rotas de rotação antes de pousar.</li>
+</ul>
+
+</div>
+
+</div>
+
+<footer>
+Guia De Subir Rank No Fortnite • Risadnite • 2026
+</footer>
+
+</body>
+</html>
